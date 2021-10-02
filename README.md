@@ -10,5 +10,5 @@ Project, just for save preconfigured `PlatformIO` project.
 
 ### Status 
 
-Currently, cannot compile `asm` files.  
-(see: https://github.com/esphome/feature-requests/issues/1444)
+Currently, cannot compile `*.s` `asm` files from lib.  
+(details: https://github.com/esphome/feature-requests/issues/1444)
