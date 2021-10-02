@@ -1,14 +1,11 @@
 wg-esp32-test
 =============
 
-Sample project for test `ciniml/WireGuard-ESP32` library.
-Project, just for save preconfigured `PlatformIO` project.  
+Sample `PlatformIO` project for test `ciniml/WireGuard-ESP32` library.
 
 ### Build and run 
 
-`platformio run -t upload --verbose`
+`platformio compile -t clean`
+`platformio run`
+`platformio run -t upload`
 
-### Status 
-
-Currently, cannot compile `*.s` `asm` files from lib.  
-(details: https://github.com/esphome/feature-requests/issues/1444)
