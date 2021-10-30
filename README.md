@@ -1,11 +1,13 @@
 wg-esp32-test
 =============
 
-Sample `PlatformIO` project for test `ciniml/WireGuard-ESP32` library.
+Sample `PlatformIO` project for test `ciniml/WireGuard-ESP32` library. 
 
 ### Build and run 
 
-- `platformio compile -t clean`
-- `platformio run`
-- `platformio run -t upload`
+- `platformio run` for build 
+- `platformio run -t upload` for upload
 
+### Links
+ 
+- [WireGuard-ESP32](https://github.com/ciniml/WireGuard-ESP32-Arduino)
